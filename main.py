@@ -1,3 +1,4 @@
-from NumpyGUI2 import main
+# dummy script for compile.py
+from NumpyGUI3 import main
 
 main()
