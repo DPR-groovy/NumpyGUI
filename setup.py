@@ -10,4 +10,3 @@ datafiles = [("platforms", ["C:\\Users\\username\\Anaconda2\\pkgs\\qt5-5.6.2-vc9
              ("", [r"c:\windows\system32\MSVCP100.dll", r"c:\windows\system32\MSVCR100.dll"])] + matplotlib.get_py2exe_datafiles()
              
 setup(console=[{"script":"example.py"}], options={"py2exe":{"includes":includes}}, data_files=datafiles)
-
